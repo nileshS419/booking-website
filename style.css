@@ -1,0 +1,28 @@
+/* Add hover effect to all images except those in the carousel */
+
+img:not(.carousel-inner img):hover {
+    opacity: 0.8;                                  /* Adjust the opacity or any effect you want */
+    transform: scale(1.05);                        /* Optional: Scale the image on hover */
+    transition: all 0.3s ease;                     /* Smooth transition for the effect */
+}
+
+
+.customize-trip-section {
+    background-color: #f8f9fa; /* Light background */
+    padding: 30px 0;
+}
+
+.customize-trip-section .form-label {
+    font-weight: bold;
+}
+
+.customize-trip-section .form-control {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.customize-trip-section .btn-primary {
+    padding: 13px 20px;
+    font-size: 12px;
+    border-radius: 7px;
+}
